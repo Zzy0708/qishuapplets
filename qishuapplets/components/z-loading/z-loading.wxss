@@ -1,0 +1,5 @@
+/* components/z-loading/z-loading.wxss */
+.loading {
+  text-align: center;
+  margin: 50% 40%;
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-panel": "@vant/weapp/panel/index",
+    "z-article": "/components/z-article/z-article",
+    "z-back-top": "/components/z-back-top/z-back-top"
+  }
+}

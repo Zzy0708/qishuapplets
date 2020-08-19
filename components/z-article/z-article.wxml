@@ -1,0 +1,20 @@
+<!--components/w-article/w-article.wxml-->
+<view class="tabulous">
+	<block wx:for="{{list}}">
+		<view class="card">
+			<view class="card-body">
+				<view class="card-title" data-id="{{item.id}}"  data-title="{{item.title}}" b bindtap="handeGoToPage">{{item.title}}</view>
+				<view wx:if="{{item.intro!='1'}}"  class="intro">	{{item.intro}}</view>
+				<view wx:else class="intro"></view>
+				<view class="card-foolter">
+					<view class="dates">
+						<text class="iconfont iconshizhong"></text> {{item.times}}
+					</view>
+					<view class="see">
+						<text class="iconfont iconchakan"></text> {{item.hits}}
+					</view>
+				</view>
+			</view>
+		</view>
+	</block>
+</view>

@@ -1,0 +1,4 @@
+<!--components/z-loading/z-loading.wxml-->
+<view  wx:if='{{isLoading==true}}' class="loading">
+  <van-loading type="spinner" color="#d81e06" />
+</view>

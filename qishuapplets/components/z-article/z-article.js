@@ -1,0 +1,31 @@
+// components/z-article/z-article.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+    list: {
+      type: Array,
+      value: []
+    }
+  },
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+    handeGoToPage(e) {
+      this.triggerEvent("handeGoToPage", {
+        id: e.currentTarget.dataset.id,
+        title: e.currentTarget.dataset.title
+      })
+    }
+  }
+})

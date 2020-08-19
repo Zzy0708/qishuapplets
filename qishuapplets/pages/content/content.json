@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-nav-bar": "@vant/weapp/nav-bar/index",
+    "towxml":"/towxml/towxml",
+    "van-loading": "@vant/weapp/loading/index"
+  }
+}

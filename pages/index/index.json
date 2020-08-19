@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "z-swiper": "/components/z-swiper/z-swiper",
+    "z-back-top": "/components/z-back-top/z-back-top",
+    "z-article": "/components/z-article/z-article",
+    "z-loading": "/components/z-loading/z-loading",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-loading": "@vant/weapp/loading/index"
+  }
+}

@@ -1,0 +1,12 @@
+<!--pages/article/article.wxml-->
+<view class="tab-control">
+<van-tabs  active="{{ active }}"   duration="0.1" sticky lazy-render animated swipeable bind:change="onChange">
+  <block wx:for="{{categorys}}" wx:key="index">
+    <van-tab title="{{item.title}}" data-id="{{item.id}}">
+    	<z-article list="{{tabulous[currentType].list}}"  bind:handeGoToPage="goToPage"  />
+    </van-tab>
+  </block>
+</van-tabs>
+</view>
+<z-back-top  wx:if="{{showBackTop}}" />
+

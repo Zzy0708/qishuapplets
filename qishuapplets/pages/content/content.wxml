@@ -1,0 +1,7 @@
+<!--pages/content/content.wxml-->
+<view>
+<towxml nodes="{{article}}"/>
+</view>
+<view  wx:if='{{isLoading==true}}' class="loading">
+  <van-loading type="spinner" color="#d81e06" />
+</view>
